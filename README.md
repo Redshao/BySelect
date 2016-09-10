@@ -97,3 +97,8 @@ li {
 ```
 + 鼠标移入样式写死了，自定义可以修改`$(this).siblings("li").css("backgroundColor", "white").end().css("backgroundColor", "#f3f3f3")`该处的颜色
 + 只实现了一些基础的样式，可以和方便的进行二次修改
+
+## use
+```
+$(".select").BySelect();
+```
